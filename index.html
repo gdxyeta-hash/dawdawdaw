@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Нежный выбор | Волшебный момент</title>
+    <title>Ты любишь меня?</title>
     <style>
         * {
             margin: 0;
@@ -471,10 +471,10 @@
             
             function setNoButtonText(isHover) {
                 if (isHover) {
-                    noBtn.textContent = 'Да 🌷';
+                    noBtn.textContent = 'Да 💖';
                     noBtn.classList.add('morph-hover');
                 } else {
-                    noBtn.textContent = 'Нет 🌸';
+                    noBtn.textContent = 'Нет 💖';
                     noBtn.classList.remove('morph-hover');
                 }
             }
@@ -554,7 +554,7 @@
                 mobileHint.style.fontWeight = '500';
                 mobileHint.style.pointerEvents = 'none';
                 mobileHint.style.zIndex = '20';
-                mobileHint.textContent = '📱 Коснись "Нет" — она превратится в "Да"!';
+                
                 document.body.appendChild(mobileHint);
                 setTimeout(() => {
                     mobileHint.style.transition = 'opacity 1s';
